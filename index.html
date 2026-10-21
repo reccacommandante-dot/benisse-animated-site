@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#e9eee3">
+<title>Benisse Studio | Lash Artistry</title>
+<style>
+:root{--sage:#7e9278;--sage-dark:#405641;--sage-light:#e9eee3;--cream:#faf8f2;--ink:#2e382f;--muted:#6e776e;--white:#fff;--line:#dce3d7}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:84px}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.65}a{color:inherit}.serif,h1,h2,h3,.brand{font-family:Georgia,'Times New Roman',serif;font-weight:400}h1,h2,h3,p{margin-top:0}h1{font-size:clamp(2.8rem,7vw,6.2rem);line-height:1.02;letter-spacing:-.045em}h2{font-size:clamp(2rem,4vw,3.5rem);line-height:1.12}h3{font-size:1.55rem}.eyebrow{text-transform:uppercase;letter-spacing:.2em;font-size:.72rem;color:var(--sage-dark);font-weight:700}.container{width:min(1160px,calc(100% - 40px));margin:auto}.site-header{position:sticky;top:0;z-index:10;background:rgba(250,248,242,.92);backdrop-filter:blur(12px);border-bottom:1px solid #dce3d780}.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{text-decoration:none;font-size:1.55rem;letter-spacing:.04em;color:var(--sage-dark)}nav{display:flex;gap:24px;align-items:center}nav a{text-decoration:none;font-size:.85rem;color:var(--ink)}nav a:hover{color:var(--sage)}.button{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--sage-dark);background:var(--sage-dark);color:white;text-decoration:none;padding:13px 22px;border-radius:2px;font-size:.86rem;letter-spacing:.04em;cursor:pointer;transition:transform .25s,background .25s}.button:hover{transform:translateY(-2px);background:#2f4331}.button.outline{background:transparent;color:var(--sage-dark)}.hero{padding:70px 0 82px;background:linear-gradient(120deg,#edf1e8 0%,#f9f7f0 65%,#e4eadf 100%);overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:55px}.hero-copy p{max-width:480px;color:var(--muted);font-size:1.05rem}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.hero-art{min-height:530px;position:relative;display:grid;place-items:center}.hero-frame{width:min(100%,420px);height:500px;border-radius:48% 48% 4px 4px;overflow:hidden;background:#d9e1d2;position:relative;box-shadow:0 25px 70px #34453218}.hero-frame img{width:100%;height:100%;object-fit:cover}.hero-stamp{position:absolute;bottom:28px;left:0;background:var(--cream);padding:18px 22px;box-shadow:0 12px 35px #34453215;max-width:220px;font-family:Georgia,serif;font-size:1.15rem}.section{padding:100px 0}.section-head{max-width:650px;margin:0 auto 46px;text-align:center}.section-head p{color:var(--muted)}.intro{display:grid;grid-template-columns:.9fr 1.1fr;gap:55px;align-items:center}.intro-photo{position:relative;min-height:420px;border-radius:46% 46% 4px 4px;overflow:hidden;background:#e3e8de;border:1px solid var(--line)}.intro-photo img{position:absolute;width:100%;height:100%;inset:0;object-fit:cover;object-position:center;display:block}.intro-mark{font-family:Georgia,serif;font-size:clamp(3rem,7vw,6rem);line-height:.95;color:var(--sage);letter-spacing:-.05em}.intro-copy{max-width:650px}.intro-copy p{color:var(--muted)}.services{background:#edf1e8}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--cream);padding:30px 26px;border:1px solid var(--line);min-height:235px;transition:transform .35s,box-shadow .35s}.card:hover{transform:translateY(-7px);box-shadow:0 18px 40px #40564112}.card-number{color:var(--sage);font-size:.75rem;letter-spacing:.15em}.card p{color:var(--muted);font-size:.94rem}.price{font-family:Georgia,serif;font-size:1.45rem;color:var(--sage-dark);margin-top:18px}.note{font-size:.82rem;color:var(--muted)}.gallery-grid{display:grid;grid-template-columns:1.1fr .9fr .9fr;gap:16px}.gallery-tile{height:360px;overflow:hidden;background:#e3e8de}.gallery-tile:nth-child(2){margin-top:40px}.gallery-tile:nth-child(3){margin-top:80px}.gallery-tile img{width:100%;height:100%;object-fit:cover;transition:transform .8s}.gallery-tile:hover img{transform:scale(1.05)}.booking{background:var(--sage-dark);color:#fff}.booking .eyebrow{color:#d8e4d0}.booking .section-head p{color:#e0e7dc}.booking-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px;align-items:start}.booking-details p{color:#dbe3d7}.booking-form{background:var(--cream);color:var(--ink);padding:32px;display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}.field label{font-size:.82rem;color:#4c5a4b}.field input,.field select,.field textarea{width:100%;border:1px solid #d8dfd3;background:#fff;padding:12px;font:inherit;color:var(--ink);border-radius:2px}.field textarea{min-height:90px;resize:vertical}.form-message{grid-column:1/-1;font-size:.9rem;margin:0}.booking-form .button{grid-column:1/-1}.locations{display:grid;grid-template-columns:1fr 1fr;gap:18px}.location-card{border:1px solid var(--line);padding:30px;background:#fff}.location-card p{color:var(--muted)}.location-card a{color:var(--sage-dark)}.cta{background:#e9eee3;text-align:center}.cta p{color:var(--muted)}footer{background:#263a29;color:#edf1e8;padding:36px 0}.footer-row{display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}.footer-row a{color:#edf1e8}.reveal{opacity:0;transform:translateY(28px);transition:opacity .75s ease,transform .75s cubic-bezier(.2,.65,.3,1)}.reveal.visible{opacity:1;transform:translateY(0)}.reveal.delay-1{transition-delay:.1s}.reveal.delay-2{transition-delay:.2s}.reveal.delay-3{transition-delay:.3s}.hero .reveal{opacity:1;transform:none}.menu-toggle{display:none;border:1px solid var(--line);background:transparent;padding:8px 11px;color:var(--sage-dark)}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}*{animation:none!important;transition:none!important}}@media(max-width:800px){nav{display:none;position:absolute;top:76px;left:0;right:0;background:var(--cream);padding:20px;flex-direction:column;border-bottom:1px solid var(--line)}nav.open{display:flex}.menu-toggle{display:block}.nav .button{display:none}.hero{padding:50px 0}.hero-grid,.intro,.booking-layout{grid-template-columns:1fr;gap:30px}.hero-art{min-height:380px}.hero-frame{height:390px;width:min(100%,350px)}.hero-stamp{left:calc(50% - 170px);bottom:12px}.section{padding:70px 0}.cards{grid-template-columns:1fr}.gallery-grid{grid-template-columns:1fr 1fr}.gallery-tile{height:260px}.gallery-tile:first-child{grid-column:1/-1}.gallery-tile:nth-child(2),.gallery-tile:nth-child(3){margin-top:0}.locations{grid-template-columns:1fr}.booking-form{padding:22px;grid-template-columns:1fr}.field.full,.form-message,.booking-form .button{grid-column:auto}}@media(max-width:440px){.container{width:min(100% - 28px,1160px)}.gallery-grid{grid-template-columns:1fr}.gallery-tile:first-child{grid-column:auto}.gallery-tile{height:300px}}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#home">Benisse Studio</a>
+    <button class="menu-toggle" aria-label="Open menu" onclick="document.querySelector('nav').classList.toggle('open')">Menu ☰</button>
+    <nav>
+      <a href="#about">Our Story</a><a href="#services">Lash Menu</a><a href="#gallery">Gallery</a><a href="#locations">Locations</a>
+    </nav>
+    <a class="button" href="#booking">Request a Booking</a>
+  </div>
+</header>
+<main>
+<section class="hero" id="home">
+ <div class="container hero-grid">
+  <div class="hero-copy">
+   <div class="eyebrow reveal">Lash artistry • Davao City</div>
+   <h1 class="reveal delay-1">Your beauty,<br><em>your signature.</em></h1>
+   <p class="reveal delay-2">Thoughtfully styled lashes made to complement your eyes, your mood, and your everyday beauty.</p>
+   <div class="hero-actions reveal delay-3"><a class="button" href="#booking">Request an Appointment</a><a class="button outline" href="#services">Explore Lash Menu</a></div>
+  </div>
+  <div class="hero-art reveal delay-2">
+   <div class="hero-frame"><img src="https://images.unsplash.com/photo-1583001809873-a128495da465?auto=format&fit=crop&w=1000&q=85" alt="Beauty and lash artistry editorial photograph" onerror="this.style.display='none'"></div>
+   <div class="hero-stamp">A little detail.<br>A lovely difference.</div>
+  </div>
+ </div>
+</section>
+<section class="section" id="about"><div class="container intro">
+ <div class="intro-photo reveal"><img src="https://sites.google.com/sitesv-images-rt/AMxu72t5aM_7AFPQogJRqMCxpfauQMBU-VJeKHj2BBLOKZbNXnV8UM6sb-qvSiIPjzErZcuwKnqw8MzJzQkBAssiDDbjrXHnqHQTiP0_y4S0xJz3O4podg5B-Bkup3XefZRqBya7LEntXihe4-TAVflg7qvOGL7lvh5cDcUYrZi9Ado5E78W_6UX7FdTSSs3xyI6BiSzr2cYSnXWSbzJTrV6mjZ_o3OS-gniVpBdMOMB%3Dw1280" alt="Benisse Studio lash artist carefully applying eyelash extensions to a client" loading="lazy"></div>
+ <div class="intro-copy reveal delay-1"><div class="eyebrow">Get to know us</div><h2>Beauty,<br><em>with intention.</em></h2><p><strong>A little more confidence. A little more you.</strong></p><p>Established in 2019, Benisse Studio is a lash business dedicated to helping you feel like yourself, only a little more luminous.</p><p>We take a personal, considered approach to every set, creating a look that complements your features, eye shape, and everyday life.</p><p>From soft, effortless classics to wispy, textured styles and customized lash designs, every detail is thoughtfully considered to celebrate your natural beauty.</p><p><em>Your beauty, our passion.</em></p><a href="#booking" class="button">Find Your Lash Look</a></div>
+</div></section>
+<section class="section services" id="services"><div class="container">
+ <div class="section-head reveal"><div class="eyebrow">The lash menu</div><h2>Your next favorite set.</h2><p>Explore a selection of signature styles. Please confirm your preferred set and price when requesting your appointment.</p></div>
+ <div class="cards">
+  <article class="card reveal"><div class="card-number">01 / CLASSIC</div><h3>Classic 1:1</h3><p>Clean, timeless definition for a naturally enhanced look.</p><div class="price">₱450–₱600</div><div class="note">Natural, semi, or full set; UV options vary.</div></article>
+  <article class="card reveal delay-1"><div class="card-number">02 / SOFT VOLUME</div><h3>Russian / Wingyy</h3><p>Soft fullness with a fluffy finish, customized to your preferred intensity.</p><div class="price">₱350–₱900</div><div class="note">Pricing varies by volume and regular-glue or UV technique.</div></article>
+  <article class="card reveal delay-2"><div class="card-number">03 / TEXTURED</div><h3>Wetlook & Whispy</h3><p>Defined texture, airy spikes, and a little extra drama.</p><div class="price">₱400–₱900</div><div class="note">Pricing varies by style, volume, and technique.</div></article>
+  <article class="card reveal"><div class="card-number">04 / CUSTOM</div><h3>Manga & Medusa</h3><p>Statement-making custom styles for a distinct, eye-catching look.</p><div class="price">₱600–₱900</div><div class="note">Bottom lashes may cost extra.</div></article>
+  <article class="card reveal delay-1"><div class="card-number">05 / CUSTOM</div><h3>Goddess & Arabic</h3><p>Personalized lash mapping to bring your desired aesthetic to life.</p><div class="price">₱600–₱900</div><div class="note">Exact price depends on the selected style and technique.</div></article>
+  <article class="card reveal delay-2"><div class="card-number">06 / PERSONALIZED</div><h3>Your Custom Look</h3><p>Not sure what to choose? Add your inspiration or notes to your booking request.</p><div class="price">Let's discuss</div><a href="#booking">Request a consultation →</a></article>
+ </div>
+ <p class="note" style="text-align:center;margin-top:25px">Prices shown are indicative ranges based on the existing menu and should be verified against your current price list before launch.</p>
+</div></section>
+<section class="section" id="gallery"><div class="container">
+ <div class="section-head reveal"><div class="eyebrow">The details</div><h2>A look for every mood.</h2><p>Replace these sample editorial images with your own Benisse Studio lash photos for the most authentic gallery.</p></div>
+ <div class="gallery-grid">
+  <div class="gallery-tile reveal"><img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=900&q=85" alt="Beauty editorial inspiration"></div>
+  <div class="gallery-tile reveal delay-1"><img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=85" alt="Beauty studio inspiration"></div>
+  <div class="gallery-tile reveal delay-2"><img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=85" alt="Beauty portrait inspiration"></div>
+ </div>
+</div></section>
+<section class="section booking" id="booking"><div class="container">
+ <div class="section-head reveal"><div class="eyebrow">Your appointment</div><h2>Let's plan your lash look.</h2><p>Send a booking request and we'll follow up to confirm availability. Submitting a request does not confirm an appointment.</p></div>
+ <div class="booking-layout">
+  <div class="booking-details reveal"><h3>A few details, then you're all set.</h3><p>Choose your preferred service, date, and time. Please make sure your contact details are correct so the studio can reach you.</p><p><strong>Booking policy</strong><br>Appointments are confirmed only after the studio responds. If a deposit is required, you'll receive instructions directly.</p></div>
+  <form class="booking-form reveal delay-1" id="bookingForm">
+   <div class="field"><label for="fullName">Full name *</label><input id="fullName" name="fullName" required autocomplete="name"></div>
+   <div class="field"><label for="email">Email address *</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+   <div class="field"><label for="phone">Phone number *</label><input id="phone" name="phone" type="tel" required autocomplete="tel"></div>
+   <div class="field"><label for="service">Preferred lash service *</label><select id="service" name="service" required><option value="">Choose a service</option><option>Russian / Wingyy</option><option>Wetlook</option><option>Whispy</option><option>Classic 1:1</option><option>Manga</option><option>Medusa</option><option>Goddess</option><option>Arabic</option><option>Custom / Need advice</option></select></div>
+   <div class="field"><label for="date">Preferred date *</label><input id="date" name="date" type="date" required></div>
+   <div class="field"><label for="time">Preferred time *</label><input id="time" name="time" type="time" required></div>
+   <div class="field full"><label for="notes">Notes / preferred style</label><textarea id="notes" name="notes" placeholder="Tell us your preferred lash map or any questions."></textarea></div>
+   <div class="field full"><label><input type="checkbox" name="consent" required style="width:auto"> I agree to be contacted about this booking request.</label></div>
+   <p class="form-message" id="formMessage" role="status" aria-live="polite">Booking connection needs to be verified before accepting live submissions.</p>
+   <button class="button" type="submit">Send Booking Request</button>
+  </form>
+ </div>
+</div></section>
+<section class="section" id="locations"><div class="container">
+ <div class="section-head reveal"><div class="eyebrow">Find Benisse</div><h2>Two locations in Davao City.</h2><p>Choose the location that works best for you. Please confirm the exact address and availability with the studio.</p></div>
+ <div class="locations">
+  <article class="location-card reveal"><div class="eyebrow">Location one</div><h3>Toril</h3><p>Benisse Studio — Toril, Davao City</p><a href="https://www.google.com/maps/search/?api=1&query=Benisse+Studio+Toril+Davao+City" target="_blank" rel="noopener">Open in Google Maps ↗</a></article>
+  <article class="location-card reveal delay-1"><div class="eyebrow">Location two</div><h3>Bago Aplaya</h3><p>Benisse Studio — Bago Aplaya, Davao City</p><a href="https://www.google.com/maps/search/?api=1&query=Benisse+Studio+Bago+Aplaya+Davao+City" target="_blank" rel="noopener">Open in Google Maps ↗</a></article>
+ </div>
+</div></section>
+<section class="section cta"><div class="container reveal"><div class="eyebrow">Your beauty, your way</div><h2>Ready for your next set?</h2><p>Choose your style and send us a booking request.</p><a href="#booking" class="button">Request an Appointment</a></div></section>
+</main>
+<footer><div class="container footer-row"><a class="brand" href="#home" style="color:#edf1e8">Benisse Studio</a><span>Made with care in Davao City.</span><a href="#home">Back to top ↑</a></div></footer>
+<script>
+/* IMPORTANT: The booking form is intentionally in demo mode until the existing
+   Apps Script doPost contract is verified. This prevents accidental lost bookings. */
+const form = document.getElementById('bookingForm');
+const msg = document.getElementById('formMessage');
+form.addEventListener('submit', function(e){
+  e.preventDefault();
+  msg.textContent = 'This design preview is ready, but live booking submission is not connected yet. Please continue using your current published Google Sites form until the existing Apps Script connection is verified.';
+  msg.scrollIntoView({behavior:'smooth',block:'nearest'});
+});
+const revealItems = document.querySelectorAll('.reveal');
+if ('IntersectionObserver' in window) {
+ const observer = new IntersectionObserver((entries)=>{
+  entries.forEach((entry)=>{
+   if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target);}
+  });
+ },{threshold:0.12,rootMargin:'0px 0px -35px 0px'});
+ revealItems.forEach((item)=>observer.observe(item));
+} else { revealItems.forEach((item)=>item.classList.add('visible')); }
+document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>document.querySelector('nav').classList.remove('open')));
+const dateInput = document.getElementById('date');
+const today = new Date(); dateInput.min = new Date(today.getTime()-today.getTimezoneOffset()*60000).toISOString().split('T')[0];
+</script>
+</body>
+</html>
